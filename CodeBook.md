@@ -1,14 +1,14 @@
 # CodeBook: tidy_rundata
 
-tidy_rundata is a derivative of the Human Activity Recognition Using Smartphones Data Set (data set and description available at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). For consistency, it maintains the names of the variables in the original data set. Please refer also to ReadMe.
+tidy_rundata is a tidy derivative of the Human Activity Recognition Using Smartphones Data Set (data set and description available at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). It contains only the mean and standard deviation for each measurement in the original data set, and the values are averaged by subject and activity. For consistency, it maintains the names of the variables in the original data set. Please refer also to ReadMe.
 
 ### ID Variables:
 
 **id** - the subject performing the activity (range: 1-30)
 
-**activity** - activity performed by the subject (one of: walking, walking_upstairs, walking_downstairs, sitting, standing, laying)
+**activity** - activity performed by the subject, recoded from the original data set (one of: walking, walking_upstairs, walking_downstairs, sitting, standing, laying)
 
-### Note: compared to the original data set, the values of the following variables in tidy_rundata represent the mean for each subject and each activity
+### Note: compared to the original data set, the values taken by the following variables in tidy_rundata represent the mean for each subject and each activity
 
 **tBodyAcc-mean()-X** - mean of body acceleration signal from the accelerometer x axis
 
