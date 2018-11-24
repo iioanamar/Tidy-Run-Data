@@ -1,6 +1,10 @@
 # CodeBook: tidy_rundata
 
-tidy_rundata is a tidy derivative of the Human Activity Recognition Using Smartphones Data Set (data set and description available at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). It contains only the mean and standard deviation for each measurement in the original data set, and the values are averaged by subject and activity. For consistency, it maintains the names of the variables in the original data set. Please refer also to ReadMe.
+tidy_rundata is a tidy derivative of the Human Activity Recognition Using Smartphones Data Set (data set and description available at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). It contains only the mean and standard deviation for each measurement in the original data set, and the values are averaged by subject and activity. For consistency, it maintains the names of the variables in the original data set. 
+
+Please refer also to ReadMe.
+
+## Variable list
 
 ### ID Variables:
 
